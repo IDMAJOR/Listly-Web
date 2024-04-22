@@ -1,0 +1,54 @@
+ol{
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    justify-content: baseline;
+    align-items: baseline;
+    justify-content: space-between;
+    font-size: 1.1rem;
+    font-weight: 500;
+    gap: 20px;
+    border: 1px solid whitesmoke;
+    padding: 5px;
+}
+
+ol li{
+    padding: 10px;
+    background-color: whitesmoke;
+    width: 40rem;
+}
+
+form{
+    display: flex;
+    justify-content: baseline;
+    align-items: baseline;
+    gap: 20px;
+}
+
+.text-input{
+    width: 100%;
+    max-width: 50%;
+    padding: 2.5px;
+    height: 3.7vh;
+}
+
+.task-text{
+    color: black;
+}
+
+.add-btn{
+    width: 5rem;
+    height: 4.9vh;
+    background-color: whitesmoke;
+    outline: none;
+    border: 1px solid rgba(0, 0, 0, 0.199);
+    border-radius: 5px;
+    transition: 400ms ease-in-out;
+}
+.add-btn:hover{
+    background-color: rgba(0, 0, 0, 0.205);
+    color: whitesmoke;
+    border: none;
+}
+
+
